@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "grunt": "grunt",
-    "prepublish": "grunt"
+    "prepublish": "grunt",
+    "postinstall": "grunt"
   },
   "author": "Stanislav Panferov <fnight.m@gmail.com> (http://panferov.me/)",
   "repository": {
@@ -42,6 +43,6 @@
     "grunt-shell": "^1.1.2",
     "grunt-ts": "^3.0.0",
     "load-grunt-tasks": "^0.6.0",
-    "typescript": "^1.8.0-dev.20151031"
+    "typescript": "1.8.0-dev.20151031"
   }
 }
