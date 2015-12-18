@@ -484,10 +484,11 @@ function compiler(webpack: IWebPack, text: string): void {
                     }
 
                     resultText = result.text;
-                    resultSourceMap = JSON.parse(result.sourceMap);
-                    resultSourceMap.sources = [ fileName ];
-                    resultSourceMap.file = fileName;
-                    resultSourceMap.sourcesContent = [ text ];
+                    //resultSourceMap = JSON.parse(result.sourceMap);
+                    //resultSourceMap.sources = [ fileName ];
+                    //resultSourceMap.file = fileName;
+                    //resultSourceMap.sourcesContent = [ text ];
+                    resultSourceMap = false;
 
                     if (instance.options.useBabel) {
                         let defaultOptions = {
