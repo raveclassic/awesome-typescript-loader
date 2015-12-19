@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "grunt": "grunt",
-    "prepublish": "grunt",
-    "postinstall": "./node_modules/.bin/grunt"
+    "prepublish": "grunt"
   },
   "author": "Stanislav Panferov <fnight.m@gmail.com> (http://panferov.me/)",
   "repository": {
